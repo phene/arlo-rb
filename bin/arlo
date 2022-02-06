@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH << File.expand_path(File.join(__dir__, '../lib'))
+
+require 'thor'
+require 'arlo'
+require 'arlo/cli'
+
+Arlo::CLI.start
